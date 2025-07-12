@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <!-- Login Fragment -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.petjournal.LoginFragment"
+        android:label="Login">
+
+        <action
+            android:id="@+id/action_loginFragment_to_journalTabsFragment"
+            app:destination="@id/journalTabsFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+
+    <!-- Register Fragment -->
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.petjournal.RegisterFragment"
+        android:label="Register">
+
+        <action
+            android:id="@+id/action_registerFragment_to_journalTabsFragment"
+            app:destination="@id/journalTabsFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <!-- Journal Tabs Fragment -->
+    <fragment
+        android:id="@+id/journalTabsFragment"
+        android:name="com.example.petjournal.JournalTabsFragment"
+        android:label="Journal Tabs" />
+
+    <!-- Other fragments, you can keep or remove as you wish -->
+    <fragment
+        android:id="@+id/addEntryFragment"
+        android:name="com.example.petjournal.AddEntryFragment"
+        android:label="Add Entry" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.petjournal.ProfileFragment"
+        android:label="Profile" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.petjournal.AboutFragment"
+        android:label="About" />
+
+    <fragment
+        android:id="@+id/entryDetailFragment"
+        android:name="com.example.petjournal.EntryDetailFragment"
+        android:label="Entry Detail" >
+
+        <argument
+            android:name="entryId"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

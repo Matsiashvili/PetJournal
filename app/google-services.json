@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "519426809450",
+    "project_id": "petjournal-ca801",
+    "storage_bucket": "petjournal-ca801.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519426809450:android:2e5c75057cbb14bb55b413",
+        "android_client_info": {
+          "package_name": "com.example.petjournal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe4kUAzUIcmKQja0kfK8iXX9AUHFe5uXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
