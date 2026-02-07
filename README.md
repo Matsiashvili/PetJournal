@@ -31,5 +31,5 @@ This project was developed for learning and academic purposes and is not intende
 - Enhance offline–online data sync handling  
 
 ## 👩‍💻 Developer
-**Tika Matsiashvili**  
-LinkedIn: www.linkedin.com/in/tikamatsiashvili/
+**Tika M**  
+
