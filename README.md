@@ -32,4 +32,4 @@ This project was developed for learning and academic purposes and is not intende
 
 ## 👩‍💻 Developer
 **Tika Matsiashvili**  
-LinkedIn: https://www.linkedin.com/in/YOUR-LINK
+LinkedIn: www.linkedin.com/in/tikamatsiashvili/
